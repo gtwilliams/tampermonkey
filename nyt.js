@@ -4,6 +4,7 @@
 // @version    0.1
 // @description  Make article paragraphs black
 // @include      http://www.nytimes.com/*
+// @include      https://www.nytimes.com/*
 // @copyright  2014, Garry T. Williams
 // ==/UserScript==
 
