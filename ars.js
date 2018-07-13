@@ -14,7 +14,8 @@
     var x = document.createElement("style");
     x.appendChild(document.createTextNode(
         'article.standalone, .article-content, .comment, .quotecontent, ' +
-	'.comments-row, .post-content, .article-content blockquote ' +
+	'.comments-row, .post-content, .article-content blockquote, ' +
+	'.article-single blockquote ' +
 	'{ color: #000000 !important; } .comments-row #comments-area ' +
         '#comments > li.gray > .body { opacity: 1 !important; }'));
     document.getElementsByTagName("head")[0].appendChild(x);
