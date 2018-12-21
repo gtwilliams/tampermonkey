@@ -4,7 +4,7 @@
 // @version    0.1
 // @description  Bridge Cheaters to black
 // @match      http://bridgecheaters.com/*
-// @copyright  2018 Garry T. Williams
+// @author     Garry T. Williams
 // ==/UserScript==
 
 (function () {
