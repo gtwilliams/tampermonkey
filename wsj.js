@@ -5,7 +5,7 @@
 // @description  WSJ article to black
 // @match      http://www.wsj.com/*
 // @match      https://www.wsj.com/*
-// @copyright  2014, 2017 Garry T. Williams
+// @author     Garry T. Williams
 // ==/UserScript==
 
 (function () {

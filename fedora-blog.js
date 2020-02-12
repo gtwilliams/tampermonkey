@@ -1,9 +1,9 @@
 // ==UserScript==
-// @name       Bridge Cheaters to black
+// @name       Fedora Blog to Black
 // @namespace  http://cbeyond.net/
 // @version    0.1
-// @description  Bridge Cheaters to black
-// @match      http://bridgecheaters.com/*
+// @description  Gmail to black
+// @match      https://communityblog.fedoraproject.org/*
 // @author     Garry T. Williams
 // ==/UserScript==
 

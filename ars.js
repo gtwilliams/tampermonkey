@@ -7,7 +7,7 @@
 // @match      http://arstechnica.co.uk/*
 // @match      https://arstechnica.com/*
 // @match      https://arstechnica.co.uk/*
-// @copyright  2014, 2017 Garry T. Williams
+// @author     Garry T. Williams
 // ==/UserScript==
 
 (function () {

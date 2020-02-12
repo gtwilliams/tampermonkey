@@ -4,7 +4,7 @@
 // @version    0.1
 // @description  Wikipedia article to black
 // @match      http://en.wikipedia.org/*
-// @copyright  2014, Garry T. Williams
+// @author     Garry T. Williams
 // ==/UserScript==
 
 (function () {
