@@ -2,7 +2,7 @@
 // @name         Format Worklog Entries Correctly
 // @namespace    http://tampermonkey.net/
 // @version      0.1
-// @description  try to take over the world!
+// @description  Make worklog entries easier to read.
 // @author       You
 // @match        https://tts-ticketviewer.apps.cloud.comcast.net/*
 // @grant        none
@@ -12,9 +12,7 @@
     'use strict';
     var x = document.createElement("style");
     x.appendChild(document.createTextNode(
-        'div.ticketviewer[_ngcontent-c2] ' +
-        'div.worklogs-container[_ngcontent-c2] ' +
-        'span.value.details[_ngcontent-c2] ' +
+        'span.value.details, span.value ' +
         '{ white-space: pre; font-family: monospace; !important; }'));
     document.getElementsByTagName("head")[0].appendChild(x);
 })();
