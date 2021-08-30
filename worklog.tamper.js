@@ -8,11 +8,8 @@
 // @grant        none
 // ==/UserScript==
 
-(function() {
-    'use strict';
-    var x = document.createElement("style");
-    x.appendChild(document.createTextNode(
-        'span.value.details, span.value ' +
-        '{ white-space: pre; font-family: monospace; !important; }'));
-    document.getElementsByTagName("head")[0].appendChild(x);
-})();
+document.getElementsByTagName("head")[0].
+    appendChild(document.createElement("style").
+	appendChild(document.createTextNode(
+	    'span.value.details, span.value { white-space: '
+	    + 'pre; font-family: monospace; !important; }')));
