@@ -13,6 +13,8 @@
     var x = document.createElement("style");
     x.appendChild(document.createTextNode(
         'span.value.details, span.value ' +
-        '{ white-space: pre; font-family: monospace; !important; }'));
+        '{ white-space: pre; font-family: monospace; !important; }' +
+        '.table, .mat-card { color: #000; }' +
+        '.table td, .table th { padding: 0.25rem; font-size: larger; }'));
     document.getElementsByTagName("head")[0].appendChild(x);
 })();
