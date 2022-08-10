@@ -11,6 +11,7 @@
     var x = document.createElement("style");
     x.appendChild(document.createTextNode(
         'div.post_content ' +
-	'{ font-family: Georgia,"Times New Roman" !important; }'));
+	'{ font-family: Georgia,"Times New Roman" !important; }' +
+        'body { color: #000 !important; }'));
     document.getElementsByTagName("head")[0].appendChild(x);
 })();
