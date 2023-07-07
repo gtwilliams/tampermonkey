@@ -4,6 +4,7 @@
 // @version    0.1
 // @description  Make conversations black
 // @match        https://*.washingtontimes.com/*
+// @match        https://washingtontimes.com/*
 // @author       Garry T. Williams
 // ==/UserScript==
 
