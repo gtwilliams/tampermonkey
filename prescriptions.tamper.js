@@ -14,7 +14,8 @@
     var x = document.createElement("style");
     x.appendChild(document.createTextNode(
         'body, h3, p, h4.rx-list-medication-name, ' +
-        '#navBottom li a, .details-link a, item-panel a ' +
+        '#navBottom li a, .details-link a, ' +
+        '.highlight-black .rx-item-panel a ' +
 	'{ color: #000000 !important; }'));
     document.getElementsByTagName("head")[0].appendChild(x);
 })();
