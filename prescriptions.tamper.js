@@ -4,7 +4,7 @@
 // @version      2024-04-19
 // @description  Publix Prescriptions!
 // @author       You
-// @match        https://rx.publix.com/en/rx*
+// @match        https://rx.publix.com/*
 // @icon         https://www.google.com/s2/favicons?sz=64&domain=publix.com
 // @grant        none
 // ==/UserScript==
